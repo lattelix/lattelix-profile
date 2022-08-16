@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <title>lattelix</title>
+  <link rel="shortcut icon" href="img/favicon90R.png" type="image/x-icon" />
+  <meta name="description" content="Portfolio site" />
+  <meta name="theme-color" content="#D8E4FF" />
+  <meta property="og:locale" content="en_EN" />
+  <meta property="og:image" content="img/favicon.png" />
+  <meta property="og:site_name" content="lattelix.xyz" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style/style.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+</head>
+
+<body>
+  <!-- Yandex.Metrika counter -->
+  <script>
+    (function (m, e, t, r, i, k, a) {
+      m[i] =
+        m[i] ||
+        function () {
+          (m[i].a = m[i].a || []).push(arguments);
+        };
+      m[i].l = 1 * new Date();
+      (k = e.createElement(t)),
+        (a = e.getElementsByTagName(t)[0]),
+        (k.async = 1),
+        (k.src = r),
+        a.parentNode.insertBefore(k, a);
+    })(
+      window,
+      document,
+      "script",
+      "https://mc.yandex.ru/metrika/tag.js",
+      "ym"
+    );
+
+    ym(70442860, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+    });
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/70442860" style="position: absolute; left: -9999px" alt="" />
+    </div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <section id="home">
+    <header>
+      <div class="header-logo-box">
+        <img id="logo" src="img/logoW.png" alt="lattelix_logo" />
+        <span>old</span>
+      </div>
+      <nav>
+        <label for="drop" class="toggle">
+          <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+            <path class="line top"
+              d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom"
+              d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+          </svg>
+        </label>
+        <input type="checkbox" id="drop" />
+
+        <ul class="menu blur">
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#useful">Useful</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <canvas id="myCanvas"></canvas>
+
+    <div class="home_text">
+      <h1>Alexander<br />Dakhno</h1>
+    </div>
+  </section>
+  <section id="about_me">
+    <div class="heading-section">
+      <div class="gradient-border title">about me</div>
+    </div>
+    <div class="container">
+      <div class="about-text">
+        <div class="text">
+          In fact, there should be a text about me, but it is only a beta
+          version of the site and I don’t know what to write here. Besides,
+          you can look at the rainbow
+        </div>
+      </div>
+      <a href="https://ra1nbow.xyz/rbs/" target="_blank" class="about-link">
+        <img src="img/rainbow.png" class="about-image" alt="RAINBOW" /></a>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="heading-section">
+      <div class="gradient-border title">portfolio</div>
+      <div class="sub-title">
+        <div>This is where part of my work is stored:</div>
+        <div class="works-link">
+          <a href="works.html"><span>link to other works</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="card-section">
+          <a href="https://portfolio1.lattelix.repl.co/">
+            <div class="card">
+              <div class="text">
+                <article>
+                  <div class="heading">Строй Контроль</div>
+                  <p>simple and beautiful website</p>
+                </article>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-section">
+          <a href="https://mogo.lattelix.repl.co/">
+            <div class="card">
+              <div class="text">
+                <article>
+                  <div class="heading">MoGo</div>
+                  <p>nice design proven by time</p>
+                </article>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-section">
+          <a href="https://blue-3.lattelix.repl.co/">
+            <div class="card">
+              <div class="text">
+                <article>
+                  <div class="heading">Blue</div>
+                  <p>a job worth taking a look at</p>
+                </article>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="useful">
+    <div class="heading-section">
+      <div class="gradient-border title">useful</div>
+      <div class="sub-title">
+        <div>
+          I've been finding useful tools for some time, but you don't have to
+          look for them, because they're already here:
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="features-tabs-inner section-inner has-top-divider">
+        <div class="tabs-container">
+          <ul class="tabs-links">
+            <li class="is-revealing">
+              <a href="#tab-1" class="tab-link is-active">
+                <img src="dist/images/tabs-icon-01.svg" alt="Tabs icon 01" />
+                <span class="h4 m-0">Amazing features</span>
+              </a>
+            </li>
+            <li class="is-revealing">
+              <a href="#tab-2" class="tab-link">
+                <img src="dist/images/tabs-icon-02.svg" alt="Tabs icon 02" />
+                <span class="h4 m-0">Endless possibilities</span>
+              </a>
+            </li>
+            <li class="is-revealing">
+              <a href="#tab-3" class="tab-link">
+                <img src="dist/images/tabs-icon-03.svg" alt="Tabs icon 03" />
+                <span class="h4 m-0">Ease of use</span>
+              </a>
+            </li>
+          </ul>
+          <div class="tabs-content">
+            <div id="tab-1" class="tab-panel is-active">
+              <h2>Discover</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p class="mb-0">
+                A arcu cursus vitae congue. Vel elit scelerisque mauris
+                pellentesque pulvinar pellentesque habitant morbi tristique.
+              </p>
+            </div>
+            <div id="tab-2" class="tab-panel">
+              <h2>Power of customisation</h2>
+              <p>
+                A arcu cursus vitae congue. Vel elit scelerisque mauris
+                pellentesque pulvinar pellentesque habitant morbi tristique.
+              </p>
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A arcu cursus vitae congue.
+              </p>
+            </div>
+            <div id="tab-3" class="tab-panel">
+              <h2>Keep it simple</h2>
+              <p>
+                Sed ut perspiciatis, unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium.
+              </p>
+              <p class="mb-0">
+                Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut
+                odit aut fugit, sed quia consequuntur magni dolores eos, qui
+                ratione voluptatem sequi nesciunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="contacts">
+    <div class="heading-section">
+      <div class="gradient-border title">contacts</div>
+    </div>
+    <div class="container">
+      <div class="social-btns">
+        <a target="_blank" class="btn telegram" href="https://t.me/lattelix"><i class="fab fa-telegram-plane"></i></a>
+        <a target="_blank" class="btn github" href="https://github.com/lattelix"><i class="fab fa-github"></i></a>
+        <a target="_blank" class="btn discord" href="https://discord.gg/CtRp5GB"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+    <div class="copyright">
+      ©
+      <span class="tooltip-life" title="человек который обязан">lattelix</span>
+      2021, нет прав
+    </div>
+  </section>
+
+  <script src="script/anime.min.js"></script>
+  <script src="script/jquery-3.5.1.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
